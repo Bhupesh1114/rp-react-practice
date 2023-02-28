@@ -1,0 +1,72 @@
+
+.imageContainer{
+  position: relative;
+}
+.imageContainer .banner{
+    width: 100%;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+.imageContainer .avatar{
+    width: 100%;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    border-radius: 10px;
+    top: 60px;
+    left: 50%;
+    border: 4px solid #fff;
+    transform: translate(-50%, -50%);
+}
+
+.details{
+padding: 20px 20px 0px 20px;
+margin-top: 25px;
+text-align: center;
+}
+
+.details .name{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.details .desc{
+    color: gray;
+    font-size: 15px;
+    width: 90%;
+    margin: 20px auto 2px auto;
+}
+.details .post{
+    color: gray;
+}
+
+.post_followers{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(233, 230, 230);
+    padding-bottom: 10px;
+    margin-top: 15px;
+}
+
+.post_followers .data{
+    padding: 4px 10px;
+
+}
+.post_followers .data > .number{
+    font-weight: 800;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+.post_followers .data > .text{
+    font-size: 13px;
+    color: gray;
+}
+.post_followers .data:nth-child(2){
+    border-left: 2px solid rgb(233, 230, 230);
+    border-right: 2px solid rgb(233, 230, 230);
+}
+
+.allBtns{
+    padding: 20px 20px;
+}

@@ -1,0 +1,20 @@
+.App{
+  max-width: 1220px;
+  display: grid;
+  grid-template-columns: 23% 49% 23%;
+  margin: auto;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+body{
+  background-color: #EFF2F6;
+}
+
+.text-gray{
+  color: gray;
+}
+
+.bgBlue{
+  background-color: #0F6FEC;
+  color: #fff;
+}

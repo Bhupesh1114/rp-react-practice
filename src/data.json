@@ -1,0 +1,175 @@
+{
+   "followers": [
+    {
+        "id" : 1,
+        "name" : "Judy Nguyen",
+        "description" : "News anchor",
+        "avatar" : "https://social.webestica.com/assets/images/avatar/04.jpg"
+    },
+    {
+        "id" : 2,
+        "name" : "Amanda Reed",
+        "description" : "Web Developer",
+        "avatar" : "https://social.webestica.com/assets/images/avatar/05.jpg"
+    },
+    {
+        "id" : 3,
+        "name" : "Billy Vasquez",
+        "description" : "News anchor",
+        "avatar" : "https://social.webestica.com/assets/images/avatar/11.jpg"
+    },
+    {
+        "id" : 4,
+        "name" : "Lori Ferguson",
+        "description" : "Web developer",
+        "avatar" : "https://social.webestica.com/assets/images/avatar/01.jpg"
+    },
+    {
+        "id" : 5,
+        "name" : "Carolyn Ortiz",
+        "description" : "News anchor",
+        "avatar" : "https://social.webestica.com/assets/images/avatar/placeholder.jpg"
+    }
+   ],
+   "todayNews" : [
+    {
+        "id" : 1,
+        "newsHeading" : "Ten questions you should answer truthfully",
+        "time" : "2hr"
+    },
+    {
+        "id" : 2,
+        "newsHeading" : "Five unbelievable facts about money",
+        "time" : "3hr"
+    },
+    {
+        "id" : 3,
+        "newsHeading" : "Best Pinterest Boards for learning about business",
+        "time" : "4hr"
+    },
+    {
+        "id" : 4,
+        "newsHeading" : "Skills that you can learn from business",
+        "time" : "6hr"
+    }
+   ],
+   "posts" : [
+      {
+        "id" : 1,
+        "name" : "Lori Ferguson",
+        "avatar" : "https://social.webestica.com/assets/images/avatar/04.jpg",
+        "post" : "Web Developer at Webestica",
+        "description" : "I'm thrilled to share that I've completed a graduate certificate course in project management with the president's honor roll.",
+        "bannerImage" : "https://social.webestica.com/assets/images/post/3by2/01.jpg",
+        "likes" : 56,
+        "commentsCount" : 12,
+        "share" : 3,
+        "time" : "2hr",
+        "comments" : [
+            {
+                "id" : 1,
+                "name" : "Frances Guerrero",
+                "avatar": "https://social.webestica.com/assets/images/avatar/05.jpg",
+                 "comment" : "Removed demands expense account in outward tedious do. Particular way thoroughly unaffected projection.",
+                 "time" : "5hr",
+                 "likes" : 3,
+                  "allReplies" : [
+                    {
+                        "id" : 1,
+                        "name" : "Lori Stevens",
+                        "avatar": "https://social.webestica.com/assets/images/avatar/06.jpg",
+                        "comment" : "See resolved goodness felicity shy civility domestic had but Drawings offended yet answered Jennings perceive.",
+                        "time" : "2hr",
+                        "likes" : 3,
+                        "allReplies" : []
+                    },
+                    {
+                        "id" : 2,
+                        "name" : "Billy Vasquez",
+                        "avatar": "https://social.webestica.com/assets/images/avatar/07.jpg",
+                        "comment" : "Wishing calling is warrant settled was lucky.",
+                        "time" : "15min",
+                        "likes" : 5,
+                        "allReplies" : []
+                    }
+                  ]
+            },
+            {
+                "id" : 2,
+                "name" : "Frances Guerrero",
+                "avatar": "https://social.webestica.com/assets/images/avatar/05.jpg",
+                 "comment" : "Removed demands expense account in outward tedious do. Particular way thoroughly unaffected projection.",
+                 "time" : "5hr",
+                 "likes" : 6,
+                  "allReplies" : []
+            }
+        ]
+      },
+      {
+        "id" : 2,
+        "name" : "Lori Ferguson",
+        "avatar" : "https://social.webestica.com/assets/images/avatar/05.jpg",
+        "post" : "News anchor at Webestica",
+        "description" : "I'm so privileged to be involved in the @bootstrap hiring process! Interviewing with their team was fun and I hope this can be a valuable.",
+        "bannerImage" : "https://social.webestica.com/assets/images/post/3by2/02.jpg",
+        "likes" : 35,
+        "commentsCount" : 10,
+        "share" : 5,
+        "time" : "5hr",
+        "comments" : [
+            {
+                "id" : 1,
+                "name" : "Frances Guerrero",
+                "avatar": "https://social.webestica.com/assets/images/avatar/01.jpg",
+                 "comment" : "Removed demands expense account in outward tedious do. Particular way thoroughly unaffected projection.",
+                 "time" : "5hr",
+                 "likes" : 8,
+                  "allReplies" : [
+                    {
+                        "id" : 1,
+                        "name" : "Lori Stevens",
+                        "avatar": "https://social.webestica.com/assets/images/avatar/10.jpg",
+                        "comment" : "See resolved goodness felicity shy civility domestic had but Drawings offended yet answered Jennings perceive.",
+                        "time" : "2hr",
+                        "likes" : 4,
+                        "allReplies" : []
+                    },
+                    {
+                        "id" : 2,
+                        "name" : "Billy Vasquez",
+                        "avatar": "https://social.webestica.com/assets/images/avatar/11.jpg",
+                        "comment" : "Wishing calling is warrant settled was lucky.",
+                        "time" : "15min",
+                        "likes" : 10,
+                        "allReplies" : []
+                    }
+                  ]
+            }
+        ]
+      }
+   ],
+   "userDetails" : {
+       "bannerImage" : "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+       "avatar" : "https://social.webestica.com/assets/images/avatar/07.jpg",
+       "name" : "Sam Lanson",
+       "post" : "Web Developer at Webestica",
+       "description" : "I'd love to change the world, but they won’t give me the source code.",
+       "postFollowersData" : [
+         {
+            "id" : 1,
+            "number" : "256",
+            "title" : "Post"
+         },
+         {   
+            "id" : 2,
+            "number" : "2.5k",
+            "title" : "Followers"
+         },
+         {
+             "id" : 3,
+            "number" : "365",
+            "title" : "Following"
+         }
+       ]
+   }
+}

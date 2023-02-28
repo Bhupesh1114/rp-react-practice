@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Inter&display=swap");
+
+.swiper {
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  position: relative;
+  .swiper-slide {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* position: relative; */
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    @media only screen and (min-width: 760px) {
+      flex-direction: row;
+    }
+    .textContainer {
+      position: relative;
+      width: 70%;
+      z-index: 99;
+      left: -10%;
+      top: 20%;
+      // border: 1px solid #fff;
+      height: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      overflow: hidden;
+      // display: none;
+      @media only screen and (min-width: 400px) {
+        width: 70%;
+        left: -10%;
+        top: 20%;
+      }
+
+      @media only screen and (min-width: 760px) {
+        left: 10%;
+        top: 0;
+        height: 100%;
+      }
+
+      .description-container {
+        /* animation: reveal 1.8s linear 0.5s; */
+        /* width: 100%; */
+        //  border: 1px solid #fff;
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+        .description-wrapper {
+          /* transform: translateY(250px); */
+          transition: transform 0.5s;
+          .description {
+            font-size: 25px;
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: 900;
+            font-family: "Anton", sans-serif;
+            letter-spacing: 5px;
+            @media only screen and (min-width: 300px) {
+              font-size: 35px;
+            }
+            @media only screen and (min-width: 760px) {
+              font-size: 40px;
+            }
+            @media only screen and (min-width: 830px) {
+              font-size: 50px;
+            }
+            @media only screen and (min-width: 1442px) {
+              font-size: 65px;
+            }
+          }
+          .operationSmile {
+            color: #fff;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+    .bgImageWrapper {
+      width: 100%;
+      height: 100%;
+      .bgImage {
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+  .swiper-pagination-fraction {
+    top: 17.5%;
+    width: 80px !important;
+    left: 27% !important;
+    color: #fff;
+    font-size: 14px;
+    height: 30px;
+    @media only screen and (min-width: 300px) {
+      left: 20% !important;
+      top: 17.5%;
+      font-size: 14px;
+    }
+    @media only screen and (min-width: 500px) {
+      left: 19% !important;
+      top: 19%;
+      font-size: 14px;
+    }
+    @media only screen and (min-width: 760px) {
+      top: 25.5%;
+      left: 19% !important;
+      font-size: 16px;
+    }
+    @media only screen and (min-width: 830px) {
+      left: 18% !important;
+      font-size: 16px;
+    }
+    @media only screen and (min-width: 1442px) {
+      left: 17% !important;
+      font-size: 16px;
+    }
+  }
+  .swiper-btns {
+    position: absolute;
+    top: 17%;
+    left: 5%;
+    z-index: 99;
+    @media only screen and (min-width: 500px) {
+      top: 18.5%;
+    }
+
+    @media only screen and (min-width: 760px) {
+      left: 10%;
+      top: 25%;
+    }
+    .next-btn,
+    .prev-btn {
+      cursor: pointer;
+      background-color: black;
+      color: #fff;
+      border: 1px solid #fff;
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+
+      @media only screen and (min-width: 760px) {
+        width: 30px;
+        height: 30px;
+      }
+    }
+    .next-btn {
+      margin-left: 10px;
+    }
+  }
+
+  .heading {
+    position: absolute;
+    top: 50px;
+    left: 5%;
+    z-index: 99;
+    color: blue;
+    text-transform: uppercase;
+    font-family: "Anton", sans-serif;
+    @media only screen and (min-width: 760px) {
+      left: 10%;
+    }
+  }
+  .viewMore {
+    position: absolute;
+    bottom: 80px;
+    left: 5%;
+    text-decoration: none;
+    border: 2px solid #fff;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    z-index: 99;
+
+    @media only screen and (min-width: 760px) {
+      border: 2px solid blue;
+      width: 100px;
+      height: 40px;
+      left: 10%;
+    }
+  }
+}
+
+/* 
+  @keyframes zoom-out {
+    0% {
+      clip-path: inset(36% 31% 34% 32%);
+    }
+    20%{
+      clip-path: inset(32% 26% 30% 29%);
+    }
+    40% {
+      clip-path: inset(24% 20% 22% 23%);
+  
+    }
+    60% {
+      clip-path: inset(16% 17% 17% 19%);
+    }
+    80%{
+      clip-path: inset(9% 11% 10% 13%);
+  
+    }
+    100%{
+      clip-path: inset(0 0 0 1%);
+    }
+  } */
+
+/* @keyframes zoom-in {
+    0% {
+      clip-path: inset(0 0 0 1%);
+    }
+    20%{
+      clip-path: inset(9% 11% 10% 13%);
+    }
+    40% {
+      clip-path: inset(16% 17% 17% 19%);
+    }
+    60% {
+      clip-path: inset(24% 20% 22% 23%);
+    }
+    80%{
+      clip-path: inset(32% 26% 30% 29%);
+    }
+    100%{
+      clip-path: inset(36% 31% 34% 32%);
+    }
+  } */
+
+/* @keyframes reveal {
+    0% {
+      transform: translate(0,100%);
+      opacity: 0;
+    }
+    20%{
+        transform: translate(0,80%);
+        opacity: 0.2;
+    }
+    40%{
+        transform: translate(0,60%);
+        opacity: 0.4;
+    }
+    60%{
+        transform: translate(0,40%);
+        opacity: 0.6;
+    }
+    80%{
+       transform: translate(0,20%);
+       opacity: 0.8;
+    }
+    100% {
+      transform: translate(0,0);
+      opacity: 1;
+    }
+  } */
